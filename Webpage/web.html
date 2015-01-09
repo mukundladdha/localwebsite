@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title></title>
+        <link rel="stylesheet" type="text/css" href="stylesheet1.css"/>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	</head>
+	<body>
+<!--	<img src="http://losttype.com/images/Bang_Large.gif"/>
+-->
+	<link href="http://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet" type="text/css">
+	<h1>Mukund Laddha</h1>
+	<script>
+	    var main = function(){
+    
+	    $('.stuff1').hide();
+	    $('.stuff2').hide();
+	    
+    
+	    $('.header1').click(function(){
+		$('.header2').removeClass('.active');
+		$('.header1').addClass('.active');
+		$('.stuff2').hide();
+		$('.stuff1').show();
+		$('body').css({backgroundImage:'url(http://static.squarespace.com/static/5009bba4e4b016a023bf6030/t/5162f205e4b080e51179a92c/1365438986560/stage+lights+logo+stock+image.png)'});
+		
+	    });
+	    
+	    $('.header2').click(function(){
+		$('.header1').removeClass('.active');
+		$('.header2').addClass('.active');
+		$('.stuff1').hide();        
+		$('.stuff2').show();
+		$('body').css({backgroundImage:'url(http://static.squarespace.com/static/5009bba4e4b016a023bf6030/t/5162f205e4b080e51179a92c/1365438986560/stage+lights+logo+stock+image.png)'});
+	    });
+	    }
+    
+	    $(document).ready(main);
+	</script>
+
+    <header>
+<!--	<img src="left-head"/>
+	<img src="C:\Users\mladdha\Documents\truck_ajax\centre-head"/>
+        <img src="C:\Users\mladdha\Documents\truck_ajax\right-head"/>
+-->
+    <div id="sse50">
+      <div id="sses50">
+        <ul>
+          <li><a class="header1">About Me</a></li>
+          <li><a class="header2">Contact</a></li>
+          
+        </ul>
+      </div>
+    </div>        
+    </header>
+    
+    <nav class="stuff1">
+	    <img src="http://4.bp.blogspot.com/-SklxqDwjeTE/UfVdS4eB07I/AAAAAAAACAU/fw9Q1qf8pBs/s1600/01-spotlight.jpg" width=100% height=600px/>
+<!--	    <img src="http://mspmentor.net/site-files/mspmentor.net/files/archive/mspmentor.net/wp-content/uploads/2010/11/cloud-secret-300x265.jpg" width=10% style="position:absolute;" class="cloud1" />
+-->
+<!--	    <img class="cloud1" src="http://www.cloudproviderusa.com/wp-content/uploads/2012/07/The-Cloud-Computing-Australia-001-300x252.jpeg" style="position:absolute;"/>	-->
+	    <div style="margin-top:-20%;margin-left:35%" class="details">
+	        Hey There! This is Mukund.<br/><br/>
+	        Contact me for any kind of User Interface designing projects.
+	    </div>
+    </nav>
+    
+    <nav class="stuff2" >
+       	<img src="http://www.no1parts.com/image/data/lights/stage-lighting/LEDSYY10WBSD001/LEDSYY10WBSD001-7.jpg" width=100% height=600px"/>
+	
+	<div style="margin-top:-30%;margin-left:35%" class="details">
+	    Email ID: laddha.muku@gmail.com<br/><br/>
+	    Contact Number: +91-886-191-1234
+	</div>
+    </nav>
+
+    
+    
+    </body>
+</html>
